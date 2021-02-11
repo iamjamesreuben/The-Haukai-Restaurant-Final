@@ -1,0 +1,5 @@
+AuthType Basic
+AuthName "Restricted access"
+AuthUserFile "/home/vol2_3/epizy.com/epiz_27894958/htdocs/.htpasswd"
+Require valid-user
+ErrorDocument 401 default
